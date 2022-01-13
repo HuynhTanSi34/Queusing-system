@@ -1,28 +1,28 @@
-import "./forgotpass.css";
-import Frame from "../../components/login/image/Frame.png";
-import Logoalta from "../../components/login/image/Logoalta.png";
+import "../style.css";
+import Frame from "../../components/image/Frame.png";
+import Logoalta from "../../components/image/Logoalta.png";
 const Forgot = () => {
   return (
-    <div className="screen3">
-      <div className="inform3">
-        <div className="logo3">
+    <div className="screen">
+      <div className="inform">
+        <div className="logo">
           <img src={Logoalta} alt="Lỗi" />
         </div>
         <form>
-          <div className="us3">Đặt lại mật khẩu</div>
-          <div className="pa3">
+          <div className="use2">Đặt lại mật khẩu</div>
+          <div className="pas2">
             Vui lòng nhập email để đặt lại mật khẩu của bạn*
           </div>
-          <input className="reset3" type="text" />
+          <input className="reset" type="text" placeholder="abc@gmail.com" />
           <div>
             <input type="submit" value="Tiếp tục" className="submit3" />
             <input className="cancel3" type="submit" value="Hủy" />
           </div>
         </form>
       </div>
-      <div className="ima4">
+      <div className="image4">
         <div>
-          <img src={Frame} className="ima41" alt="Lỗi" />
+          <img src={Frame} className="image5" alt="Lỗi" />
         </div>
       </div>
     </div>

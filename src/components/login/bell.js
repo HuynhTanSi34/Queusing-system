@@ -1,8 +1,12 @@
-import "./bell.css";
-const Bell = () => {
+import "../style.css";
+import belled from "../../components/image/belled.png";
+function Bell() {
   return (
-    <div className="">
-      <section className="screen6">
+    <section className="grey">
+      <div className="belled">
+        <img src={belled} alt="..." />
+      </div>
+      <sdiv className="screen6">
         <div className="title6">Thông báo</div>
         <div className="bellItem">
           <div className="man">Người dùng: Nguyễn Thị Thùy Dung</div>
@@ -28,8 +32,8 @@ const Bell = () => {
           <div className="man">Người dùng: Nguyễn Thị Trúc Anh</div>
           <div className="gian">Thời gian nhận số: 12h20 ngày 30/11/2021</div>
         </div>
-      </section>
-    </div>
+      </sdiv>
+    </section>
   );
-};
+}
 export default Bell;
