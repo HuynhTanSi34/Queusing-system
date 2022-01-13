@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito Sans");
+.screen4 {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.inform4 {
+  width: 600px;
+  background-color: transparent;
+}
+.logo4 {
+  position: absolute;
+  left: 208px;
+  top: 82px;
+  right: 1062px;
+  bottom: 592px;
+}
+.title4 {
+  height: 33px;
+  width: 217px;
+  border-radius: nullpx;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282739;
+  position: absolute;
+  left: 198px;
+  top: 320px;
+  right: 1025px;
+  bottom: 457px;
+}
+.pass55,
+.pass555 {
+  height: 40px;
+  width: 390px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px, 16px, 10px, 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+.newpa4 {
+  position: absolute;
+  left: 94px;
+  top: 365px;
+  right: 946px;
+  bottom: 370px;
+  height: 75px;
+  width: 400px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.newpa42 {
+  position: absolute;
+  left: 94px;
+  top: 465px;
+  right: 946px;
+  bottom: 279px;
+  height: 75px;
+  width: 400px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.eye4 {
+  position: absolute;
+  top: 44.66px;
+  left: 365.66px;
+  bottom: 13.66px;
+  right: 13.66px;
+  cursor: pointer;
+}
+.submit4 {
+  height: 40px;
+  width: 162px;
+  left: 118px;
+  border-radius: 8px;
+  padding: 10px, 24px, 10px, 24px;
+  border: 1px solid #ff9138;
+  background-color: orange;
+  color: white;
+  position: absolute;
+  top: 579px;
+  left: 219px;
+  bottom: 191px;
+  right: 1059px;
+}
+.ima55 {
+  width: 900px;
+  height: 810px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 0px;
+  left: 18px;
+  margin-right: 0px;
+}
+.ima51 {
+  position: absolute;
+  left: 43px;
+  bottom: 97px;
+  top: 153px;
+  right: 94px;
+}

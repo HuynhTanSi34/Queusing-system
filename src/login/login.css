@@ -1,0 +1,122 @@
+.screen1 {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.inform1 {
+  width: 600px;
+  background: transparent;
+  position: relative;
+}
+.logo1 {
+  position: absolute;
+  left: 208px;
+  top: 82px;
+  right: 1062px;
+  bottom: 592px;
+}
+.user1 {
+  height: 75px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 293px;
+  left: 94px;
+  right: 946px;
+  bottom: 442px;
+}
+.pass1 {
+  height: 75px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 384px;
+  left: 94px;
+  right: 946px;
+  bottom: 351px;
+}
+.use1,
+.pass11 {
+  border-radius: 8px;
+  border: grey;
+  border-width: 1px;
+  background: white;
+  height: 44px;
+  padding-top: 8px;
+  padding-left: 12px;
+}
+.eye1 {
+  position: absolute;
+  top: 426.66px;
+  left: 459.66px;
+  bottom: 364.66px;
+  right: 963.66px;
+  cursor: pointer;
+}
+.forgot1 {
+  position: absolute;
+  top: 471px;
+  left: 94px;
+  bottom: 318px;
+  right: 1244px;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 21px;
+  color: red;
+  width: 102px;
+  height: 21px;
+  cursor: pointer;
+}
+.submit1 {
+  height: 40px;
+  width: 162px;
+  position: absolute;
+  left: 215px;
+  bottom: 259px;
+  top: 511px;
+  right: 1063px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  border-width: 0px;
+}
+.ima {
+  width: 900px;
+  height: 810px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 0px;
+  left: 18px;
+  margin-right: 0px;
+}
+.ima1 {
+  position: absolute;
+  left: 79px;
+  bottom: 83px;
+  top: 113px;
+  right: 164px;
+}
+.ima2 {
+  position: absolute;
+  left: 454px;
+  bottom: 349px;
+  top: 407px;
+  right: 252px;
+}
+.ima3 {
+  position: absolute;
+  left: 454px;
+  bottom: 302px;
+  top: 454px;
+  right: 33px;
+}
