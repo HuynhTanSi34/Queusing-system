@@ -9,6 +9,7 @@ import map from "../../components/login/image/map.png";
 import setting from "../../components/login/image/setting.png";
 import bacham from "../../components/login/image/bacham.png";
 import bell from "../../components/login/image/bell.png";
+import belled from "../../components/login/image/belled.png";
 import avatarmini from "../../components/login/image/avatarmini.png";
 import avatarbig from "../../components/login/image/avatarbig.png";
 import changepic from "../../components/login/image/changepic.png";
@@ -38,11 +39,15 @@ const Profile = () => {
             <img src={map} />
             <div>Báo cáo</div>
           </div>
-          <div className="listItem5">
+          <div className="listItem5 ml">
             <img src={setting} />
             <div>Cài đặt hệ thống</div>
             <img src={bacham} className="bacham5" />
-            <div className="mucluc">dsfsd</div>
+            <div className="mucluc">
+              <div className="muclucItem">Quản lí vai trò</div>
+              <div className="muclucItem">Quản lí tài khoản</div>
+              <div className="muclucItem">Nhật ký người dùng</div>
+            </div>
           </div>
         </div>
         <div className="out5">
