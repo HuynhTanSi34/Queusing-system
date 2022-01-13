@@ -1,22 +1,24 @@
-.screen {
-  background: #f6f6f6;
+.screen2 {
+  background-color: #f6f6f6;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
-.inform {
-  width: 592px;
-  background-color: transparent;
+.inform2 {
+  width: 600px;
   position: relative;
+  background: transparent;
 }
-.logo {
+.logo2 {
   position: absolute;
   left: 208px;
   top: 82px;
   right: 1062px;
   bottom: 592px;
 }
-.user {
+.user2 {
   height: 75px;
   width: 400px;
   display: flex;
@@ -28,7 +30,7 @@
   right: 946px;
   bottom: 442px;
 }
-.pass {
+.pass2 {
   height: 75px;
   width: 400px;
   display: flex;
@@ -40,11 +42,15 @@
   right: 946px;
   bottom: 351px;
 }
-input {
+.use2,
+.pass22 {
   border-radius: 8px;
-  border: red 10px;
+  border-color: red;
+  background-color: white;
+  height: 40px;
+  padding-left: 10px;
 }
-.eye {
+.eye2 {
   position: absolute;
   top: 428.66px;
   left: 459.66px;
@@ -52,14 +58,14 @@ input {
   right: 963.66px;
   cursor: pointer;
 }
-.failt {
+.failt2 {
   position: absolute;
   top: 471px;
   left: 94.23px;
   bottom: 318px;
   right: 1112p.27x;
 }
-.forgot {
+.forgot2 {
   position: absolute;
   top: 564px;
   left: 246px;
@@ -72,7 +78,7 @@ input {
   width: 102px;
   height: 21px;
 }
-.submit {
+.submit2 {
   height: 40px;
   width: 162px;
   position: absolute;
@@ -82,30 +88,35 @@ input {
   right: 1063px;
   background-color: orange;
   color: white;
+  border-radius: 8px;
+  border-width: 0px;
 }
-.ima {
-  width: 848px;
+.ima0 {
+  width: 900px;
   height: 810px;
   background-color: white;
   display: flex;
   align-items: center;
   position: relative;
+  right: 0px;
+  left: 19px;
+  margin-right: 0px;
 }
-.ima1 {
+.imaa1 {
   position: absolute;
   left: 79px;
   bottom: 83px;
   top: 113px;
   right: 164px;
 }
-.ima2 {
+.imaa2 {
   position: absolute;
   left: 454px;
   bottom: 349px;
   top: 407px;
   right: 252px;
 }
-.ima3 {
+.imaa3 {
   position: absolute;
   left: 454px;
   bottom: 302px;

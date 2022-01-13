@@ -3,26 +3,26 @@ import Frame from "../../components/login/image/Frame.png";
 import Logoalta from "../../components/login/image/Logoalta.png";
 const Forgot = () => {
   return (
-    <div className="screen">
-      <div className="inform">
-        <div className="logo">
+    <div className="screen3">
+      <div className="inform3">
+        <div className="logo3">
           <img src={Logoalta} alt="Lỗi" />
         </div>
         <form>
-          <div className="us">Đặt lại mật khẩu</div>
-          <div className="pa">
+          <div className="us3">Đặt lại mật khẩu</div>
+          <div className="pa3">
             Vui lòng nhập email để đặt lại mật khẩu của bạn*
           </div>
-          <input className="reset" type="text" />
+          <input className="reset3" type="text" />
           <div>
-            <input type="submit" value="Tiếp tục" className="submit" />
-            <input className="cancel" type="submit" value="Hủy" />
+            <input type="submit" value="Tiếp tục" className="submit3" />
+            <input className="cancel3" type="submit" value="Hủy" />
           </div>
         </form>
       </div>
-      <div className="ima">
+      <div className="ima4">
         <div>
-          <img src={Frame} className="ima1" alt="Lỗi" />
+          <img src={Frame} className="ima41" alt="Lỗi" />
         </div>
       </div>
     </div>

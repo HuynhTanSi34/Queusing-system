@@ -1,4 +1,4 @@
-.screen {
+.screen6 {
   margin-top: 50px;
   margin-left: 50px;
   display: flex;
@@ -11,12 +11,10 @@
   flex-wrap: wrap;
   position: relative;
 }
-.title {
+.title6 {
   /* height: 48px;
   width: 360px; */
   /* border-radius: 0px; */
   background: #ff9138;
   color: white;
-}
-.bor {
 }

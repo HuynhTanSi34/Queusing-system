@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito Sans");
-.screen {
+.screen4 {
   background: #f6f6f6;
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
-.inform {
-  width: 592px;
+.inform4 {
+  width: 600px;
   background-color: transparent;
 }
-.logo {
+.logo4 {
   position: absolute;
   left: 208px;
   top: 82px;
   right: 1062px;
   bottom: 592px;
 }
-.title {
+.title4 {
   height: 33px;
   width: 217px;
   border-radius: nullpx;
@@ -34,7 +35,18 @@
   right: 1025px;
   bottom: 457px;
 }
-.newpa {
+.pass55,
+.pass555 {
+  height: 40px;
+  width: 390px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px, 16px, 10px, 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+.newpa4 {
   position: absolute;
   left: 94px;
   top: 365px;
@@ -47,7 +59,7 @@
   justify-content: space-between;
   flex-direction: column;
 }
-.newpa2 {
+.newpa42 {
   position: absolute;
   left: 94px;
   top: 465px;
@@ -60,7 +72,7 @@
   justify-content: space-between;
   flex-direction: column;
 }
-.eye {
+.eye4 {
   position: absolute;
   top: 44.66px;
   left: 365.66px;
@@ -68,13 +80,14 @@
   right: 13.66px;
   cursor: pointer;
 }
-.submit {
+.submit4 {
   height: 40px;
   width: 162px;
   left: 118px;
   border-radius: 8px;
   padding: 10px, 24px, 10px, 24px;
   border: 1px solid #ff9138;
+  background-color: orange;
   color: white;
   position: absolute;
   top: 579px;
@@ -82,15 +95,18 @@
   bottom: 191px;
   right: 1059px;
 }
-.ima {
-  width: 848px;
+.ima55 {
+  width: 900px;
   height: 810px;
   background-color: white;
   display: flex;
   align-items: center;
   position: relative;
+  right: 0px;
+  left: 18px;
+  margin-right: 0px;
 }
-.ima1 {
+.ima51 {
   position: absolute;
   left: 43px;
   bottom: 97px;

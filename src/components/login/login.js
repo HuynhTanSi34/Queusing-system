@@ -4,28 +4,37 @@ import Hethong from "../../components/login/image/Hethong.png";
 import Quanli from "../../components/login/image/Quanli.png";
 import Logoalta from "../../components/login/image/Logoalta.png";
 import eye from "../../components/login/image/eye.png";
-// import ShowHidePassword from "./actionlogin";
 const Login = () => {
   return (
-    <div className="screen">
-      <div className="inform">
-        <div className="logo">
+    <div className="screen1">
+      <div className="inform1">
+        <div className="logo1">
           <img src={Logoalta} alt="Lỗi" />
         </div>
         <form>
-          <div className="user">
+          <div className="user1">
             Tên đăng nhập*
-            <input type="text" name="name" placeholder="lequynhavan01" />
+            <input
+              type="text"
+              name="name"
+              placeholder="lequynhavan01"
+              className="use1"
+            />
           </div>
-          <div className="pass">
+          <div className="pass1">
             Mật khẩu*
-            <input type="password" name="password" placeholder="****" />
+            <input
+              type="password"
+              name="password"
+              placeholder="****"
+              className="pass11"
+            />
           </div>
-          <img src={eye} alt="Eye" className="eye" />
-          <div className="forgot">Quên mật khẩu?</div>
+          <img src={eye} alt="Eye" className="eye1" />
+          <div className="forgot1">Quên mật khẩu?</div>
           <br />
           <div>
-            <input type="submit" value="Đăng nhập" className="submit" />
+            <input type="submit" value="Đăng nhập" className="submit1" />
           </div>
         </form>
       </div>

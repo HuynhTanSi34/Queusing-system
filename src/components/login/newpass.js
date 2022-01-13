@@ -4,31 +4,31 @@ import Logoalta from "../../components/login/image/Logoalta.png";
 import eye from "../../components/login/image/eye.png";
 const Newpass = () => {
   return (
-    <div className="screen">
-      <div className="inform">
-        <div className="logo">
+    <div className="screen4">
+      <div className="inform4">
+        <div className="logo4">
           <img src={Logoalta} alt="Lỗi" />
         </div>
         <form>
-          <div className="title">Đặt lại mật khẩu mới</div>
-          <div className="newpa">
+          <div className="title4">Đặt lại mật khẩu mới</div>
+          <div className="newpa4">
             Mật khẩu
-            <input type="passwword" name="password" />
-            <img src={eye} alt="..." className="eye" />
+            <input type="password" name="password" className="pass55" />
+            <img src={eye} alt="..." className="eye4" />
           </div>
-          <div className="newpa2">
+          <div className="newpa42">
             Nhập lại mật khẩu
-            <input type="password" nam="password" />
-            <img src={eye} alt="..." className="eye" />
+            <input type="password" nam="password" className="pass555" />
+            <img src={eye} alt="..." className="eye4" />
           </div>
           <div>
-            <input type="submit" value="Xác nhận" className="submit" />
+            <input type="submit" value="Xác nhận" className="submit4" />
           </div>
         </form>
       </div>
-      <div className="ima">
+      <div className="ima55">
         <div>
-          <img src={Frame} className="ima1" alt="Lỗi" />
+          <img src={Frame} className="ima51" alt="Lỗi" />
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import "./bell.css";
 const Bell = () => {
   return (
     <div>
-      <section className="screen">
+      <section className="screen6">
         <div className="">Thông báo</div>
         <div className="bor">
           <div>Người dùng: Nguyễn Thị Thùy Dung</div>

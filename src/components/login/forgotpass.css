@@ -1,26 +1,27 @@
-.screen {
+.screen3 {
   background: #f6f6f6;
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
-.inform {
-  width: 592px;
-  background-color: transparent;
+.inform3 {
+  width: 600px;
+  background: transparent;
+  position: relative;
 }
-.logo {
+.logo3 {
   position: absolute;
   left: 208px;
   top: 82px;
   right: 1062px;
   bottom: 592px;
 }
-.us {
+.us3 {
   height: 24px;
-  width: 170px;
-  border-radius: nullpx;
-  font-family: "Nunito";
+  width: 300px;
+  display: inline-block;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -34,7 +35,7 @@
   right: 1061px;
   bottom: 466px;
 }
-.pa {
+.pa3 {
   position: absolute;
   top: 360px;
   left: 94px;
@@ -42,7 +43,6 @@
   bottom: 423px;
   height: 27px;
   width: 396px;
-  font-family: "Nunito";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -51,45 +51,64 @@
   text-align: left;
   color: #37474f;
 }
-.reset {
-  height: 44px;
+.reset3 {
+  height: 35px;
   width: 400px;
   left: 94px;
   top: 391px;
   border-radius: 8px;
   padding: 10px, 270px, 10px, 12px;
   background: #ffffff;
-  border: 1, 5px solid #d4d4d7;
+  border: #d4d4d7;
   position: absolute;
   top: 391px;
   left: 94px;
   bottom: 375px;
   right: 964px;
 }
-.submit {
+.submit3 {
   height: 40px;
   width: 162px;
   left: 118px;
   border-radius: 8px;
   padding: 10px, 24px, 10px, 24px;
   border: 1px solid #ff9138;
-  color: #ff9138;
+  color: white;
+  background-color: orange;
   box-shadow: 0px 0px 6px 0px #e7e9f2;
+  position: absolute;
+  top: 483px;
+  left: 304px;
+  bottom: 284px;
+  right: 1160px;
+}
+.cancel3 {
+  height: 40px;
+  width: 162px;
+  left: 118px;
+  border-radius: 8px;
+  padding: 10px, 24px, 10px, 24px;
+  border: 1px solid #ff9138;
+  background-color: transparent;
+  color: #ff9138;
   position: absolute;
   top: 483px;
   left: 118px;
   bottom: 284px;
   right: 1160px;
 }
-.ima {
-  width: 848px;
+.ima4 {
+  width: 900px;
   height: 810px;
   background-color: white;
   display: flex;
   align-items: center;
   position: relative;
+  right: 0px;
+  left: 18px;
+  margin-right: 0px;
 }
-.ima1 {
+.ima41 {
   position: absolute;
   left: 43px;
   bottom: 97px;

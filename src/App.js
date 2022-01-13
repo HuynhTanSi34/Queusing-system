@@ -8,7 +8,7 @@ import Bell from "./components/login/bell";
 function App() {
   return (
     <div>
-      <Bell />
+      <Profile />
     </div>
   );
 }

@@ -14,46 +14,47 @@ import avatarbig from "../../components/login/image/avatarbig.png";
 import changepic from "../../components/login/image/changepic.png";
 const Profile = () => {
   return (
-    <div className="screen">
-      <section className="acti">
-        <img src={Logomini} alt="Logo" className="logo" />
-        <div className="list">
-          <div className="listItem">
+    <section className="screen5">
+      <section className="acti5">
+        <img src={Logomini} alt="Logo" className="logo5" />
+        <div className="list5">
+          <div className="listItem5">
             <img src={element4} />
             <div>Dashboard</div>
           </div>
-          <div className="listItem">
+          <div className="listItem5">
             <img src={monitor} />
             <div>Thiết bị</div>
           </div>
-          <div className="listItem">
+          <div className="listItem5">
             <img src={service} />
             <div>Dịch vụ</div>
           </div>
-          <div className="listItem">
+          <div className="listItem5">
             <img src={filayers} />
             <div>Cấp số</div>
           </div>
-          <div className="listItem">
+          <div className="listItem5">
             <img src={map} />
             <div>Báo cáo</div>
           </div>
-          <div className="listItem">
+          <div className="listItem5">
             <img src={setting} />
             <div>Cài đặt hệ thống</div>
-            <img src={bacham} className="bacham" />
+            <img src={bacham} className="bacham5" />
+            <div className="mucluc">dsfsd</div>
           </div>
         </div>
-        <div className="out">
-          <img src={filogout} alt="out" className="item" />
+        <div className="out5">
+          <img src={filogout} alt="out" className="item5" />
           <div>Đăng xuất</div>
         </div>
       </section>
-      <section className="content">
-        <div className="title">Thông tin cá nhân</div>
-        <div className="title2">
+      <section className="content5">
+        <div className="title55">Thông tin cá nhân</div>
+        <div className="title52">
           <div>
-            <img alt="thongbao" src={bell} className="bell" />
+            <img alt="thongbao" src={bell} className="bell5" />
           </div>
           <div>
             <img alt="avatar" src={avatarmini} className="avatarmini" />
@@ -72,32 +73,40 @@ const Profile = () => {
           <div className="listinfor">
             <div className="inforitem">
               Tên người dùng
-              <input type="text" placeholder="Lê Quỳnh Ái Vân" />
+              <input
+                type="text"
+                className="inp"
+                placeholder="Lê Quỳnh Ái Vân"
+              />
             </div>
             <div className="inforitem">
               Tên đăng nhập
-              <input type="text" placeholder="lequynhaivan01" />
+              <input type="text" className="inp" placeholder="lequynhaivan01" />
             </div>
             <div className="inforitem">
               Số điện thoại
-              <input type="text" placeholder="0767375921" />
+              <input type="text" className="inp" placeholder="0767375921" />
             </div>
             <div className="inforitem">
               Mật khẩu
-              <input type="text" placeholder="311940211" />
+              <input type="text" className="inp" placeholder="311940211" />
             </div>
             <div className="inforitem">
               Email:
-              <input type="text" placeholder="adminSSO1@domain.com" />
+              <input
+                type="text"
+                className="inp"
+                placeholder="adminSSO1@domain.com"
+              />
             </div>
             <div className="inforitem">
               Vai trò:
-              <input type="text" placeholder="Kế toán" />
+              <input type="text" className="inp" placeholder="Kế toán" />
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 export default Profile;

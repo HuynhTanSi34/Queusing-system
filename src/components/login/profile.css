@@ -1,9 +1,11 @@
-.screen {
+.screen5 {
   background: #f6f6f6;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  height: auto;
 }
-.acti {
+.acti5 {
   width: 220px;
   height: 810px;
   background-color: white;
@@ -11,7 +13,7 @@
   display: flex;
   flex-direction: column;
 }
-.logo {
+.logo5 {
   position: absolute;
   top: 32px;
   right: 1300px;
@@ -20,7 +22,7 @@
   width: 79.77px;
   height: 63.98px;
 }
-.list {
+.list5 {
   width: 100%;
   height: 290px;
   position: relative;
@@ -28,8 +30,8 @@
   display: flex;
   flex-direction: column;
 }
-.listItem {
-  width: 100%;
+.listItem5 {
+  width: 200px;
   height: 48px;
   display: flex;
   flex-direction: row;
@@ -38,14 +40,24 @@
   padding: 14px 0px 14px 12px;
   cursor: pointer;
 }
+.listItem5:hover {
+  background-color: #fff2e7;
+  color: orange;
+}
 img {
   margin-right: 8px;
 }
-.bacham {
+.bacham5 {
   position: relative;
   left: 10px;
 }
-.out {
+.bacham5:active div.mucluc {
+  display: block;
+}
+.mucluc {
+  display: none;
+}
+.out5 {
   display: flex;
   flex-direction: row;
   justify-items: stretch;
@@ -60,24 +72,30 @@ img {
   color: orange;
   cursor: pointer;
 }
-.item {
+.item5 {
   margin: 14px 8px 14px 12px;
 }
-.content {
+.content5 {
   width: 100%;
   height: auto;
   background-color: transparent;
   position: relative;
 }
-.title {
+.title55 {
   height: 30px;
   width: auto;
   color: #ff9138;
   position: absolute;
   left: 24px;
   top: 29px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.title2 {
+.title52 {
   position: absolute;
   bottom: 722px;
   right: 64px;
@@ -89,7 +107,7 @@ img {
   width: auto;
   height: auto;
 }
-.bell {
+.bell5 {
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -173,12 +191,13 @@ img {
   margin: 12px;
   height: 80px;
 }
-input {
-  height: 35px;
-  width: 384px;
-  border-radius: 6px;
-  padding: 12px 16px 12px 16px;
-  background: #eaeaec;
+.inp {
   color: #535261;
   margin-top: 8px;
+  height: 44px;
+  width: 384px;
+  border-radius: 6px;
+  padding: 12px 16px;
+  background: #eaeaec;
+  border-width: 0px;
 }

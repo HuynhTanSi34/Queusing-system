@@ -7,41 +7,46 @@ import eye from "../../components/login/image/eye.png";
 import failt from "../../components/login/image/failt.png";
 const Errpass = () => {
   return (
-    <div className="screen">
-      <div className="inform">
-        <div className="logo">
+    <div className="screen2">
+      <div className="inform2">
+        <div className="logo2">
           <img src={Logoalta} alt="Lỗi" />
         </div>
         <form>
-          <div className="user">
+          <div className="user2">
             Tên đăng nhập*
             <input
-              className="us"
+              className="use2"
               type="text"
               name="name"
               placeholder="lequynhavan01"
             />
           </div>
-          <div className="pass">
+          <div className="pass2">
             Mật khẩu*
-            <input type="password" name="password" placeholder="****" />
+            <input
+              type="password"
+              name="password"
+              placeholder="****"
+              className="pass22"
+            />
           </div>
-          <img src={eye} alt="Eye" className="eye" />
-          <div className="failt">
+          <img src={eye} alt="Eye" className="eye2" />
+          <div className="failt2">
             <img src={failt} />
           </div>
           <br />
           <div>
-            <input type="submit" value="Đăng nhập" className="submit" />
-            <div className="forgot">Quên mật khẩu?</div>
+            <input type="submit" value="Đăng nhập" className="submit2" />
+            <div className="forgot2">Quên mật khẩu?</div>
           </div>
         </form>
       </div>
-      <div className="ima">
+      <div className="ima0">
         <div>
-          <img src={Group341} className="ima1" alt="Lỗi" />
-          <img src={Hethong} className="ima2" alt="Lỗi" />
-          <img src={Quanli} className="ima3" alt="Lỗi" />
+          <img src={Group341} className="imaa1" alt="Lỗi" />
+          <img src={Hethong} className="imaa2" alt="Lỗi" />
+          <img src={Quanli} className="imaa3" alt="Lỗi" />
         </div>
       </div>
     </div>
