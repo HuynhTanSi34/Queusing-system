@@ -1,0 +1,22 @@
+.screen {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 500px;
+  height: auto;
+  background: white;
+  flex-wrap: wrap;
+  position: relative;
+}
+.title {
+  /* height: 48px;
+  width: 360px; */
+  /* border-radius: 0px; */
+  background: #ff9138;
+  color: white;
+}
+.bor {
+}

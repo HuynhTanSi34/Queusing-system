@@ -1,0 +1,98 @@
+.screen {
+  background: #f6f6f6;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inform {
+  width: 592px;
+  background-color: transparent;
+}
+.logo {
+  position: absolute;
+  left: 208px;
+  top: 82px;
+  right: 1062px;
+  bottom: 592px;
+}
+.us {
+  height: 24px;
+  width: 170px;
+  border-radius: nullpx;
+  font-family: "Nunito";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #282739;
+  position: absolute;
+  top: 320px;
+  left: 209px;
+  right: 1061px;
+  bottom: 466px;
+}
+.pa {
+  position: absolute;
+  top: 360px;
+  left: 94px;
+  right: 950px;
+  bottom: 423px;
+  height: 27px;
+  width: 396px;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #37474f;
+}
+.reset {
+  height: 44px;
+  width: 400px;
+  left: 94px;
+  top: 391px;
+  border-radius: 8px;
+  padding: 10px, 270px, 10px, 12px;
+  background: #ffffff;
+  border: 1, 5px solid #d4d4d7;
+  position: absolute;
+  top: 391px;
+  left: 94px;
+  bottom: 375px;
+  right: 964px;
+}
+.submit {
+  height: 40px;
+  width: 162px;
+  left: 118px;
+  border-radius: 8px;
+  padding: 10px, 24px, 10px, 24px;
+  border: 1px solid #ff9138;
+  color: #ff9138;
+  box-shadow: 0px 0px 6px 0px #e7e9f2;
+  position: absolute;
+  top: 483px;
+  left: 118px;
+  bottom: 284px;
+  right: 1160px;
+}
+.ima {
+  width: 848px;
+  height: 810px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.ima1 {
+  position: absolute;
+  left: 43px;
+  bottom: 97px;
+  top: 153px;
+  right: 94px;
+}

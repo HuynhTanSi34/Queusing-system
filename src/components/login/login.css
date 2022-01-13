@@ -1,0 +1,110 @@
+.screen {
+  background: #f6f6f6;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inform {
+  width: 592px;
+  background-color: transparent;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 208px;
+  top: 82px;
+  right: 1062px;
+  bottom: 592px;
+}
+.user {
+  height: 75px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 293px;
+  left: 94px;
+  right: 946px;
+  bottom: 442px;
+}
+.pass {
+  height: 75px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 384px;
+  left: 94px;
+  right: 946px;
+  bottom: 351px;
+}
+input {
+  height: 44px;
+  width: 400px;
+  border-radius: 8px;
+  border: grey 0px;
+}
+.eye {
+  position: absolute;
+  top: 428.66px;
+  left: 459.66px;
+  bottom: 364.66px;
+  right: 963.66px;
+  cursor: pointer;
+}
+.forgot {
+  position: absolute;
+  top: 471px;
+  left: 94px;
+  bottom: 318px;
+  right: 1244px;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 21px;
+  color: red;
+  width: 102px;
+  height: 21px;
+}
+.submit {
+  height: 40px;
+  width: 162px;
+  position: absolute;
+  left: 215px;
+  bottom: 259px;
+  top: 511px;
+  right: 1063px;
+  background-color: orange;
+  color: white;
+}
+.ima {
+  width: 848px;
+  height: 810px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.ima1 {
+  position: absolute;
+  left: 79px;
+  bottom: 83px;
+  top: 113px;
+  right: 164px;
+}
+.ima2 {
+  position: absolute;
+  left: 454px;
+  bottom: 349px;
+  top: 407px;
+  right: 252px;
+}
+.ima3 {
+  position: absolute;
+  left: 454px;
+  bottom: 302px;
+  top: 454px;
+  right: 33px;
+}
